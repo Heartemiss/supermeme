@@ -75,3 +75,11 @@ li a:hover {
 .ferret {
 	background-image: url(images/ferret.png);
 }
+
+.rock {
+	background-image: url(images/rock.png);
+}
+
+.gun {
+	background-image: url(images/gun.png);
+}
