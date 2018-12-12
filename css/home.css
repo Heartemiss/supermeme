@@ -7,6 +7,7 @@ color: white;
 
 body {
 	background-image: url(images/bg.png);
+	background-position: top;
 	font-family: Courier New;
 	font-size: 0.8em;
 	text-align: center;
@@ -58,4 +59,8 @@ a {
 
 .fa:hover {
 	color: grey;
+}
+
+.contact {
+	text-align: left;
 }

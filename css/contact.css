@@ -1,0 +1,52 @@
+* {
+margin: 0;
+padding: 0;
+color: white;
+}
+
+body {
+	background-image: url(images/bg.png);
+	background-position: top;
+	font-family: Courier New;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.time {
+	margin-top: 1.5vh;
+}
+
+.container {
+	height: 80vh;
+	margin-top: 5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.about {
+	margin: 0 38%;
+	text-align: left
+}
+
+.nav ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	text-decoration: none;
+	padding: 4px;
+}
+
+li a:hover {
+	background-color: #6abd45;
+	color: white;
+}
+
+.green {
+	color: #6abd45;
+}
