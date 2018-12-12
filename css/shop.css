@@ -1,0 +1,77 @@
+* {
+margin: 0;
+padding: 0;
+color: black;
+}
+
+body {
+	font-family: Courier New;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.time {
+	margin-top: 1.5vh;
+}
+
+.container {
+	height: 80vh;
+	margin-top: 5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.shop {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	margin: 0 auto;
+}
+
+.box {
+	height: 80px;
+	width: 160px;
+}
+
+.nav ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	text-decoration: none;
+	padding: 4px;
+}
+
+li a:hover {
+	background-color: #6abd45;
+	color: white;
+}
+
+.bird {
+	background-image: url(images/bird.png);
+}
+
+.cat {
+	background-image: url(images/cat.png);
+}
+
+.dog {
+	background-image: url(images/dog.png);
+}
+
+.bull {
+	background-image: url(images/bull.png);
+}
+
+.giraffe {
+	background-image: url(images/giraffe.png);
+}
+
+.ferret {
+	background-image: url(images/ferret.png);
+}

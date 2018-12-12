@@ -1,0 +1,61 @@
+* {
+margin: 0;
+padding: 0;
+color: white;
+
+}
+
+body {
+	background-image: url(images/bg.png);
+	font-family: Courier New;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.time {
+	margin-top: 1.5vh;
+}
+
+.container {
+	margin: 30vh;
+	margin-left: 40vw;
+	margin-right: 40vw
+}
+
+.nav_home {
+	margin-top: 5vh;
+	text-align: left;
+	margin-left: 6vw;
+}
+
+.nav_home ul{
+	list-style: none;
+}
+
+li {
+	margin-top: 4vh;
+}
+
+ul a:hover {
+	background-color: #6abd45;
+}
+
+a {
+	text-decoration: none;
+}
+
+.social {
+	margin-top: 4vh;
+}
+
+.social a {
+	font-size: 1.7em;
+}
+
+.fa {
+	padding-right: 8px;
+}
+
+.fa:hover {
+	color: grey;
+}
