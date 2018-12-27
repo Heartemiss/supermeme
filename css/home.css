@@ -7,7 +7,10 @@ color: white;
 
 body {
 	background-color: #1F1F1F;
-	background-position: top;
+	background-image: url(images/bg.png);
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: Courier New;
 	font-size: 0.8em;
 	text-align: center;
@@ -58,7 +61,7 @@ a {
 }
 
 .fa:hover {
-	color: grey;
+	color: #6abd45;
 }
 
 .contact {

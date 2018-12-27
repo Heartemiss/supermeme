@@ -83,3 +83,19 @@ li a:hover {
 .gun {
 	background-image: url(images/gun.png);
 }
+
+.rat {
+	background-image: url(images/rat.png);
+}
+
+.cactus {
+	background-image: url(images/cactus.png);
+}
+
+.rabbit {
+	background-image: url(images/rabbit.png);
+}
+
+.snek {
+	background-image: url(images/snek.png);
+}
