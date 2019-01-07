@@ -12,6 +12,7 @@ body {
 
 .time {
 	margin-top: 1.5vh;
+	display: none;
 }
 
 .container {
